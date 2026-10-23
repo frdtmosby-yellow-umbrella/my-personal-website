@@ -92,11 +92,6 @@ header h1 {
     display: flex;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  object-fit: cover; 
-}
 /* ---------- Navigation ---------- */
 nav {
     position: sticky;
@@ -154,6 +149,7 @@ h3 {
     color: var(--accent);
 }
 
+
 section article {
     background: var(--surface-alt);
     box-shadow: none;
@@ -161,6 +157,17 @@ section article {
 
 section article h3 {
     margin-top: 0;
+}
+
+
+article img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0.5rem 0 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
 }
 
 .tech {
