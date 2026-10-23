@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of an IT student building skills in web development and cybersecurity.">
+    <title>Emmanuel Karlo Tabuyo | IT Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        
+        <div class="avatar" id="avatar">
+            <img id="profileImage" src="C:\Users\ektta\OneDrive\Desktop\my-personal-website\Images\profile.jpg" alt="Profile photo of Your Name">
+            <span class="avatar-fallback" id="avatarFallback" aria-hidden="true">EKT</span>
+        </div>
+        <h1>Emmanuel Karlo Tabuyo</h1>
+        <p class="tagline">IT Student | Aspiring Cybersecurity Professional</p>
+        <p class="hero-note">Building real projects in web development, programming, and security fundamentals.</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am an Information Technology student who is continuing my studies
+                to pursue my dream of becoming an IT professional. My long-term goal
+                is to work in cybersecurity, protecting systems and data from threats.
+            </p>
+            <p>
+                This semester I have built a point-of-sale system, sample websites
+                designed in Figma and coded with HTML, CSS, and JavaScript, and basic
+                PHP web applications. I enjoy turning what I learn in class into
+                working projects I can test, version, and publish.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <h3>Web Development</h3>
+            <ul class="skill-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+            </ul>
+
+            <h3>Programming Languages</h3>
+            <ul class="skill-list">
+                <li>Python</li>
+                <li>PHP</li>
+                <li>Java</li>
+                <li>C++</li>
+            </ul>
+
+            <h3>Tools and Workflow</h3>
+            <ul class="skill-list">
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Vercel</li>
+                <li>VS Code</li>
+                <li>Figma</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <article>
+                <h3>Point-of-Sale (POS) System</h3>
+				<img id="POSSystem" src="C:\Users\ektta\OneDrive\Desktop\my-personal-website\Images\Screenshot 2026-10-24 012920.png">
+                <p>
+                    A client-based POS system for a small business, built with
+                    Python in Anvil. It handles products and sales records, and was
+                    documented, tested, and presented as a final project.
+                </p>
+                <p class="tech">Python &middot; Anvil &middot; Data Tables</p>
+            </article>
+
+            <article>
+                <h3>Sample Websites</h3>
+				<img id="FigmaWebsite" src="C:\Users\ektta\OneDrive\Desktop\my-personal-website\Images\Screenshot 2026-10-24 014421.png" alt="FIGMAPNG">
+                <p>
+                    Web pages first designed as interfaces in Figma, then built with
+                    HTML, CSS, and JavaScript. These projects practiced layout,
+                    typography, and user-friendly design.
+                </p>
+                <p class="tech">Figma &middot; HTML &middot; CSS &middot; JavaScript</p>
+            </article>
+
+            <article>
+                <h3>Basic PHP Web Applications</h3>
+				<img id="PHPWeb" src="C:\Users\ektta\OneDrive\Desktop\my-personal-website\Images\Screenshot 2026-10-24 013602.png" alt="PHPPNG">
+                <p>
+                    Server-side web applications built and tested locally on XAMPP.
+                    They taught me how PHP processes requests and generates pages.
+                </p>
+                <p class="tech">PHP &middot; XAMPP &middot; HTML</p>
+            </article>
+
+            <article>
+                <h3>Personal Website</h3>
+				<img id="PersonalWebsite" src="C:\Users\ektta\OneDrive\Desktop\my-personal-website\Images\Screenshot 2026-10-24 015830.png" alt="PersonalWebPNG">
+                <p>
+                    This portfolio, created for CCC 110. It is version-controlled
+                    with Git, stored on GitHub, and deployed with Vercel.
+                </p>
+                <p class="tech">HTML &middot; CSS &middot; JavaScript &middot; Git &middot; GitHub &middot; Vercel</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>
+                Want to talk about a project or an opportunity? Send a message below
+                or find me on GitHub.
+            </p>
+
+            <form id="contactForm" novalidate>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+
+                <p id="formMessage" aria-live="polite"></p>
+            </form>
+
+            <p class="links">
+                <!-- Replace YOUR-USERNAME with your real GitHub username. -->
+                <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year">2026</span> Your Name. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
